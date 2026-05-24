@@ -21,3 +21,7 @@ https://github.com/abhigyanpatwari/GitNexus
 https://github.com/safishamsi/graphify
 
 https://arxiv.org/abs/2603.09022
+
+https://code.claude.com/docs/en/memory
+
+https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide
