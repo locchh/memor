@@ -1,4 +1,4 @@
-# hebbit
+# hebb
 
 ## Related to
 
