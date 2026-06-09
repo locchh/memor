@@ -68,16 +68,6 @@ that actually separate them.
   Code model (hooks + local SQLite + observation files). Graph systems (cognee/zep) are
   the architectural step *up* for relationship-aware recall.
 
-## "Rich features" ≠ "rich architecture"
-
-claude-mem *looks* feature-rich because it's purpose-built for Claude Code (hooks,
-`mem-search` skill, progressive disclosure, web viewer). But architecturally it's one of
-the **simplest** — a flat SQLite+Chroma log. The heavier lifting on *what a memory is* and
-*how it's reconciled over time* lives in mem0 (extract/dedup pipeline), cognee (graph +
-ontology), and zep (bi-temporal graph). "Rich" depends on the goal: for zero-friction
-Claude Code recall, claude-mem fits best; for relationship/time/contradiction reasoning,
-the graph systems are far richer.
-
 ---
 
 See [hebb.md](hebb.md) for the Hebbian theory these tools loosely descend from, and
